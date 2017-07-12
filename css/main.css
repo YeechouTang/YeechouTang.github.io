@@ -1329,6 +1329,7 @@ pre .javascript .function {
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
+  text-align: center;
 }
 .posts-expand .post-title-link::before {
   content: "";
@@ -1678,7 +1679,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9c8204;
+  background: #6678ba;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2481,7 +2482,7 @@ pre .javascript .function {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2541,7 +2542,7 @@ pre .javascript .function {
   }
 }
 .container .main-inner {
-  width: 960px;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2557,7 +2558,7 @@ pre .javascript .function {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 700px;
+  width: calc(100% - 260px);
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
@@ -2606,15 +2607,13 @@ pre .javascript .function {
 @media (min-width: 768px) and (max-width: 991px) {
   .footer-inner {
     width: auto;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding-left: 0;
   }
 }
 @media (max-width: 767px) {
   .footer-inner {
     width: auto;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding-left: 0;
   }
 }
 .sidebar-position-right .header-inner {
